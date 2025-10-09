@@ -1,0 +1,17 @@
+h1{
+color: purple;
+background-color: magenta;
+}
+
+/* 
+INLINE CSS: Inline css is the way to define the styles
+ in the form of attribute and it is the most 
+powerful style which can only be replaced by !important.
+
+INTERNAL CSS: Interal css is the way to declear a style tag in the head of html file where
+we are selecting the element by its tag name, id or class and apllying style respectively.
+
+EXTERAL CSS: Exteral css is the way to create a file or link a file from exteral it can be
+from anywhere either from the local compter fs or from the exteral internet via link.
+
+*/
