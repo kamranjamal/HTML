@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Class and ID</title>
+
+        <!-- Id => # will be placed before id name -->
+         <!-- Class => . will be placed before class name -->
+        <style>
+            /* h1{
+                color:red;
+            } */
+            #heading{
+                background-color:rgb(4, 4, 17);
+                color:yellow;
+            }
+            #para{
+                color:red;
+                background-color: rgb(2, 23, 2);
+            }
+
+            .common-style{
+                font-family:cursive;
+            }
+            /* h1{
+                color:green !important;
+            } */
+             #first-btn{
+                color:black;
+             }
+             .btn{
+                background-color:pink;
+                color:white;
+             }
+        </style>
+    </head>
+    
+
+    <body>
+        <h1 class="common-style" id="heading">Hello</h1>
+        <p class="common-style" id="para">Hello I am paragraph</p>
+
+        <button class="btn" id="first-btn">Click me </button>
+        <button class="btn">submit </button>
+        <button class="btn" >Login </button>
+        <button class="btn">Register </button>
+        <button class="btn">Book me </button>
+        <button class="btn">Remember me </button>
+        
+        <script>
+            // console.log(document.querySelectorAll('.common-style'))
+        </script>
+    </body>
+</html>
+
